@@ -27,4 +27,9 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Caches the current user.
+     * @param name the username to cache
+     */
+    void setCurrentUser(String name);
 }
