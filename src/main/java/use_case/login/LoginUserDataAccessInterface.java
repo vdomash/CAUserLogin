@@ -32,4 +32,10 @@ public interface LoginUserDataAccessInterface {
      * @param name the username to cache
      */
     void setCurrentUser(String name);
+
+    /**
+     * Returns the name of the current user.
+     * @return the cached username
+     */
+    String getCurrentUser();
 }
